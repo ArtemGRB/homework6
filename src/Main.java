@@ -14,10 +14,8 @@ public class Main {
         System.out.println("\n");
 
         //Задание 3
-        for (int i = 0; i <= 17; i++) {
-            if(i % 2 == 0) {
+        for (int i = 0; i <= 17; i += 2) {
                 System.out.print(i + " ");
-            }
         }
         System.out.println("\n");
 
